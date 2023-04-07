@@ -1,8 +1,53 @@
+# IntelliJ specific files
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+# Netbeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VSCode files
+.vscode/
+.code-workspace
+
+# OS X
+.DS_Store
+
+# compiled target folder
+target/
+
 # Compiled class file
 *.class
 
 # Log file
 *.log
+
+# Custom Save Files
+*.ser
 
 # BlueJ files
 *.ctxt
@@ -18,9 +63,3 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# Intellij
-.idea/
